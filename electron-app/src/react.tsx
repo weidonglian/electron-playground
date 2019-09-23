@@ -3,7 +3,10 @@ import * as ReactDOM from 'react-dom'
 
 const Index = () => {
     return (
-        <div>Hello React!</div>
+        <React.Fragment>
+            <h1>This is my electron app</h1>
+            <div>Hello React!</div>
+        </React.Fragment>
     )
 }
 
