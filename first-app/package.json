@@ -1,0 +1,20 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "the first app of learning electron from scratch",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64",
+    "package-win": "electron-packager . first-app --platform=win32 --arch=x64",
+    "package-linux": "electron-packager . first-app --overwrite --platform=linux --arch=x64"
+  },
+  "author": "weidong lian",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^6.0.10"
+  },
+  "devDependencies": {
+    "electron-packager": "^14.0.6"
+  }
+}
